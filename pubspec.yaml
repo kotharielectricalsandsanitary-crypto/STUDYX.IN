@@ -1,0 +1,58 @@
+
+name: studyx
+
+description: "StudyX - Premium Study Tracker & Productivity Web App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  path: ^1.9.0
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  flutter_local_notifications: ^19.5.0
+  fl_chart: ^0.69.0
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+  animations: ^2.0.11
+  lottie: ^3.3.1
+  http: ^1.5.0
+  dcli: ^10.0.0
+  dcli_input: ^10.0.0
+
+  flutter_foreground_task: ^11.0.3
+  system_alert_window: ^2.0.11
+  timezone: ^0.10.1
+  flutter_timezone: ^5.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/animations/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/studyx_logo.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/images/studyx_logo.png"

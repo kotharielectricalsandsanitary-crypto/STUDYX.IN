@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StudyX</string>
+
+    <string name="distraction_blocker_description">StudyX distraction blocker monitors selected apps to help you stay focused while studying.</string>
+
+    <string name="accessibility_service_description">StudyX uses accessibility access to detect when selected entertainment apps are opened while the distraction blocker is enabled.</string>
+
+</resources>
